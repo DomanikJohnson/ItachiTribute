@@ -1,0 +1,143 @@
+html{
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+background-color: #eee;
+border-radius: 8px;
+margin: 15px;
+    
+}
+
+.head-container{
+    text-align: center;
+    margin-top: -14px;
+}
+
+.head-container h1{
+    font-size: 53px;
+}
+#head-title{
+    padding-top: 48px;
+}
+
+#head-caption {
+    margin-top: -18px;
+}
+.head-container h4{
+    font-size: 30px;
+}
+
+.head-container h1, .head-container h4 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.head-container hr {
+    border-color: #d5d5d5fa;
+}
+
+hr { 
+    margin-top: -13px;
+    display: block;
+    border: 10px inset;
+    overflow: hidden;
+    box-shadow: 10 10px 10px -10px #8c8b8b ;
+}
+
+.hr2 {
+    margin-top: 20px;
+    display: block;
+    border: 10px inset;
+    overflow: hidden;
+    box-shadow: 10 10px 10px -10px #8c8b8b ;
+    border-color: #d5d5d5fa;
+
+}
+
+#main{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+#main img {
+    margin-left: 30px;
+    filter: grayscale(100%);
+    width: 500px;
+    height: 600px;
+}
+
+#main .main-p{
+    margin-left: 30px;
+    line-height: 1.5;
+    flex-wrap: nowrap;
+    margin-top: -5px;
+}
+
+#main .main-side .main-ul {
+    margin-left: 30px;
+    line-height: 1.5;
+    flex-wrap: nowrap;
+}
+
+.main-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #80808075;
+    width: 32em;
+}
+
+@media screen and (max-width: 1017px ) {
+
+    #main {
+        display : flex;
+        flex-direction: column;
+    }
+ 
+#main .main-p{
+    margin-left: 30px;
+    line-height: 1.5;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#main .main-side .main-ul{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+#main img {
+    filter: grayscale(100%);
+    width: 50%;
+    height: auto;
+   margin: 0 auto;
+}
+
+body{
+    background-color: #eee;
+    border-radius: 8px;
+    width: 100vh;        
+    }
+
+}
+
+@media screen and (max-width: 843px ) {
+body {
+   width: 80%;
+}
+
+.quote {
+    width: 93%;
+}
+}
