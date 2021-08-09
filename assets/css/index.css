@@ -1,14 +1,13 @@
 html{
     background-color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 body{
 background-color: #eee;
 border-radius: 8px;
 margin: 15px;
-    
+   
 }
 
 .head-container{
@@ -92,12 +91,21 @@ hr {
     width: 32em;
 }
 
+footer{
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
 @media screen and (max-width: 1017px ) {
 
-    #main {
-        display : flex;
-        flex-direction: column;
-    }
+#main {
+    display : flex;
+    flex-direction: column;
+}
  
 #main .main-p{
     margin-left: 30px;
@@ -128,7 +136,7 @@ body{
     background-color: #eee;
     border-radius: 8px;
     width: 100vh;        
-    }
+}
 
 }
 
